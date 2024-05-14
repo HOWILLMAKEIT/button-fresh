@@ -2,7 +2,7 @@
 #define WINMAXBUTTON_H
 
 #include "interactivebuttonbase.h"
-
+#include<QPainterPath>
 class WinMaxButton : public InteractiveButtonBase
 {
 public:

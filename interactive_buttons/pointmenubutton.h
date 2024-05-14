@@ -1,6 +1,6 @@
 #ifndef POINTMENUBUTTON_H
 #define POINTMENUBUTTON_H
-
+#include<QPainterPath>
 #include <QtMath>
 #include "interactivebuttonbase.h"
 

@@ -3,7 +3,6 @@
 
 #include <QApplication>
 #include <QMainWindow>
-#include <QDesktopWidget>
 #include <QScreen>
 #include "interactivebuttonbase.h"
 #include "winminbutton.h"

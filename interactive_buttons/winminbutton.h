@@ -1,6 +1,6 @@
 #ifndef WINMINBUTTON_H
 #define WINMINBUTTON_H
-
+#include<QPainterPath>
 #include "interactivebuttonbase.h"
 
 class WinMinButton : public InteractiveButtonBase

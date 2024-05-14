@@ -3,7 +3,7 @@
 
 #include <QGraphicsDropShadowEffect>
 #include "interactivebuttonbase.h"
-
+#include<QPainterPath>
 class ThreeDimenButton : public InteractiveButtonBase
 {
 	#define AOPER 10

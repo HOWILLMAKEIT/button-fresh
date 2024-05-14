@@ -2,7 +2,7 @@
 #define WATERZOOMBUTTON_H
 
 #include "interactivebuttonbase.h"
-
+#include<QPainterPath>
 const int DEFAULT_CHOKING = 5;
 
 class WaterZoomButton : public InteractiveButtonBase

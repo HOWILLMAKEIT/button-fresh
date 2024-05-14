@@ -118,7 +118,7 @@ void MainWindow::enterEvent(QEvent *event)
 {
     icon_btn->showForeground2();
 
-    return QMainWindow::enterEvent(event);
+    return QMainWindow::enterEvent(static_cast<QEnterEvent *>(event));
 }
 
 void MainWindow::leaveEvent(QEvent *event)

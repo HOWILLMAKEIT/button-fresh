@@ -1,6 +1,6 @@
 #ifndef WATERCIRCLEBUTTON_H
 #define WATERCIRCLEBUTTON_H
-
+#include<QPainterPath>
 #include "interactivebuttonbase.h"
 
 class WaterCircleButton : public InteractiveButtonBase

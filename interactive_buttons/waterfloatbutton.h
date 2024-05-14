@@ -2,7 +2,7 @@
 #define WATERFLOATBUTTON_H
 
 #include "interactivebuttonbase.h"
-
+#include<QPainterPath>
 class WaterFloatButton : public InteractiveButtonBase
 {
 public:

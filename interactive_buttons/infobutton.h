@@ -1,6 +1,7 @@
 #ifndef INFOBUTTON_H
 #define INFOBUTTON_H
 
+#include <QtGlobal>
 #include "interactivebuttonbase.h"
 
 class InfoButton : public InteractiveButtonBase

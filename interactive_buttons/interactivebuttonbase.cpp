@@ -1,5 +1,5 @@
 #include "interactivebuttonbase.h"
-
+#include<QPainterPath>
 /**
  * 所有内容的初始化
  * 如果要自定义，可以在这里调整所有的默认值
@@ -1091,7 +1091,7 @@ void InteractiveButtonBase::enterEvent(QEvent *event)
         mouse_pos = mapFromGlobal(QCursor::pos());
     emit signalMouseEnter();
 
-    return QPushButton::enterEvent(event);
+    return QPushButton::enterEvent(static_cast<QEnterEvent *>(event));
 }
 
 /**

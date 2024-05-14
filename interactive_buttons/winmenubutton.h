@@ -1,6 +1,6 @@
 #ifndef WINMENUBUTTON_H
 #define WINMENUBUTTON_H
-
+#include<QPainterPath>
 #include "interactivebuttonbase.h"
 
 class WinMenuButton : public InteractiveButtonBase

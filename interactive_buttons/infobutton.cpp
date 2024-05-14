@@ -1,5 +1,7 @@
 #include "infobutton.h"
-
+#include<QPainterPath>
+#include <QtGlobal>
+#include <QRandomGenerator>
 InfoButton::InfoButton(QWidget *parent) : InteractiveButtonBase(parent)
 {
     setUnifyGeomerey(true);
@@ -110,7 +112,7 @@ void InfoButton::mousePressEvent(QMouseEvent *event)
     if (event->button() == Qt::LeftButton)
     {
         // 随机吐舌头
-        tongue = qrand() % 10 == 0;
+         tongue = QRandomGenerator::global()->generate() % 10 == 0;
     }
 
     return InteractiveButtonBase::mousePressEvent(event);

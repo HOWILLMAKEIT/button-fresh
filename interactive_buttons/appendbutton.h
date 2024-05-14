@@ -1,6 +1,5 @@
 #ifndef APPENDBUTTON_H
 #define APPENDBUTTON_H
-
 #include "interactivebuttonbase.h"
 
 class AppendButton : public InteractiveButtonBase
@@ -10,7 +9,7 @@ public:
 
 protected:
     void paintEvent(QPaintEvent *event) override;
-    void enterEvent(QEvent *event) override;
+    void enterEvent(QEvent *event) ;
     void mouseReleaseEvent(QMouseEvent *event) override;
 
 public slots:
