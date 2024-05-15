@@ -9,7 +9,6 @@ MainWindow::MainWindow(QWidget *parent) :
     move(rect.left()+(rect.width() - width())/2, (rect.height() - height())/2);
 
     setMouseTracking(true);
-
     InteractiveButtonBase* btn0 = new InteractiveButtonBase(this);
     btn0->setGeometry(0, 0, 120, 32);
     btn0->setIcon(QIcon(":/icons/point_menu"));
